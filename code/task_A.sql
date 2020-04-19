@@ -1,9 +1,9 @@
 
 CREATE TABLE champ(
-     champion_name VARCHAR(12) NOT NULL,
+     champion_name VARCHAR(15) NOT NULL,
      champion_id int NOT NULL,
      PRIMARY KEY (champion_id)
-);
+);/*
 CREATE TABLE match_info(
      match_id int NOT NULL,
      duration int,
@@ -86,4 +86,4 @@ fields terminated by ','
 enclosed by '"'
 lines terminated by '\r\n'
 ignore 1 lines;
-
+*/
